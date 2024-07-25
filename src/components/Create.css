@@ -1,0 +1,15 @@
+#login, #esqueci, #senha{
+    color: #474747;
+    margin-left: 35px;
+}
+#esqueci{
+    text-decoration: underline;
+}
+#criar-conta{
+    height: 600px;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+#criar-conta span{
+    text-decoration: underline;
+}

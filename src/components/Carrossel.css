@@ -1,0 +1,250 @@
+.carrossel-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 150px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+#stoque{
+    font-size: 40px;
+    font-weight: 600;
+}
+.tenis-img{
+   transform: rotate(-30deg);
+}
+#ofertas button{
+    color: #FFFF;
+    background-color: #C92071;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+#ofertas button:hover{
+    background-color: #f14799;
+}
+#yellow{
+    color: 
+    #F6AA1C;
+}
+#lorem-stoque{
+    width: 400px;
+}
+#btn-carrossel{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background-color: aliceblue;
+}
+#item-btm{
+    width: 10px;
+    height: 10px;
+    background-color: #bdb5b9;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+#item-btm:hover{
+    background-color: #C92071;
+}
+
+
+
+
+#destaque{
+    margin-top: 150px;
+    color:
+    #474747;
+    font-size: 25px;
+    margin-left: 130px;
+}
+/* Collection cards */
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#shirt-card{
+    display: flex;
+    width: 380px;
+    background-color:
+    #D8E3F2;
+}
+
+#oferta{
+    background-color: 
+    #E7FF86;
+    border-radius: 10px;
+    text-align: center;
+}
+#shirt-card button{
+    color: #C92071;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 110px;
+}
+#shirt-card button:hover{
+    background-color:#C92071;
+    color: white;
+}
+#shirt-card h3{
+    margin-left: 25px;
+
+}
+#title-card{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+#cards button{
+    color: #C92071;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 110px;
+}
+#title-images{
+    font-size: 25px;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+#img-group {
+    margin: 0 550px;
+    cursor: pointer;
+}
+
+
+
+#see-more{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 200px;
+    gap: 640px;
+    margin-bottom: 20px;
+}
+#see-more img{
+    margin-top: 10px;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+
+/* gradient */
+
+#container-product{
+    margin-left: 20px
+}
+#container-product h3{
+    border-radius: 15px;
+    color: 
+    #474747;
+    margin-left: 30px;
+    width: 120px;
+    text-align: center;
+    height: 20px;
+    background-color: #E7FF86;
+}
+#image-container{
+    width: 340px;
+    height: 370px;
+    cursor: pointer;
+    background-color: #e4e0e0;
+}
+#description-product h6{
+    margin-left: 0px;
+}
+
+#description-descount{
+    text-decoration: line-through;
+    color:
+    #8F8F8F;
+}
+#description-product{
+    font-size: 20px;
+    width: 340px;
+}
+#description-product h6, h5{
+    font-size: 19px;
+    margin: 2px;
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+#description-product h6{
+    font-size: 13px;
+    color: 
+    #8F8F8F;
+}
+#new-price{
+    font-weight: 900;
+}
+#gradient{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 225px;
+}
+
+
+
+
+/* air jordan */
+.air-jordan{
+     margin-top: 150px;
+    display: flex;
+    height: 500px;
+    margin-left: 200px;
+    gap: 160px;
+}
+
+.air-jordan h6{
+    font-size: 20px;
+    width: 680px;
+    font-weight: 400;
+    color: #474747;
+    margin-left: 0px;
+}
+/* #jordan-img{
+    width: 650px;
+    background:linear-gradient(#4200FF
+    25%);
+} */
+
+
+#jordan-img {
+    width: 650px;
+}
+
+
+#offers{
+    color: #C92071;
+    font-weight: 700;
+}
+#air-title{
+    font-size: 47px;
+    width: 500px;
+    color: 
+    #474747;
+    margin-left: 0px;
+} 
+.air-jordan button{
+    width: 200px;
+    margin-left: 0px;
+    height: 40px;
+    background-color: 
+    #C92071;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#btn-jordan {
+    background-color: 
+    #e04791;
+}

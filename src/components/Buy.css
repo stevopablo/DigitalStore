@@ -1,0 +1,171 @@
+.finalizar-compra {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.finalizar-compra h7{
+    margin-left: 30px;
+}
+
+.finalizar-compra input {
+    height: 40px;
+    background-color: #e7e7e7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5PX;
+}
+#info-container{
+    display: flex;
+}
+#info-container img{
+    width: 70px;
+    padding: 10px;
+    background-color:
+    #E2E3FF;
+}
+#img-description{
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#subtotal{
+    display: flex;
+    gap: 370px;
+    color: 
+    #8F8F8F;
+}
+#subtotal-0{
+    display: flex;
+    gap: 390px;
+    color: #8F8F8F;
+}
+#subtotal-0 span{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+#subtotal span{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#total-resume{
+    padding: 15px;
+    display: flex;
+    gap: 200px;
+    background-color: #f3bd5a86;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 186, 24) ;
+}
+#btn-payment{
+    border: none;
+    background-color: 
+    #F6AA1C;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight:600 ;
+    margin-top: 15px;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+}
+#delivery{
+    width: 40%;
+    margin-left: 250px;
+    /* display: flex; */
+    flex-direction: column;
+    margin-top:-100px ;
+}
+#delivery h6{
+    margin-left: 30px;
+    margin-bottom: 0;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+#delivery input{
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5PX;
+}
+
+
+
+#info-payment{
+    margin-left: 250px;
+    width: 40%;
+}
+#info-payment h6{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+#info-payment input{
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5PX;
+}
+
+#btn-radio{
+    width: 20px;
+}
+#payment-option {
+    display: flex;
+}
+#payment-option label{
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+}
+
+.cards input{
+    width: 215px;
+}
+
+
+.total-compra{
+    margin-left: 250px;
+    width: 40%;
+}
+.total-compra p{
+    margin-left: 330px;
+}
+.total-compra span{
+    color: 
+    #EE4266;
+    font-weight: 800;
+    font-size: 20px;
+}
+.total-compra .total {
+    font-weight: 700;
+}
+.total-compra button{
+    border: none;
+    background-color: 
+    #F6AA1C;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight:600 ;
+    margin-top: 15px;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+.total-compra div{
+display: flex;
+gap: 400px;
+}
+
+  

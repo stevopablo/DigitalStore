@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #B5B6F2; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+section{
+    display: flex;
+    padding: 10px;
+    background-color:#B5B6F2;
+    padding: 0 10px;    
+}
+#bg-color{
+    width: 2000px;
+    height: 800px;
+    background-color: #B5B6F2;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: white;
+}
+#tenis1{
+    margin-left: 200px;
+    }
+#tenis2{
+    display: flex;
+    margin-top: -400px;
+    margin-left: 1180px;
+}
+/* logo */
+nav img{
+    margin-left:120px ;
+    background-color: white;
+    height: 35px;    
+}
+#conta-container{
+    border-radius: 5px;
+    margin-top: 120px;
+    background-color: white;
+    width: 550px;
+    height: 400px;
+    margin-left: 30px;
+}
+#conta-container h1, input{
+    margin-left: 35px;
+}
+.main-container p{
+    margin-left: 35px;
+}
+#btn-create-account, #email{
+    margin-left: 35px;
+
+}
+#conta-container h1{
+    background-color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.alternative-login{
+    margin-left: 200px;
+    display: flex;
+}
+.alternative-login img{
+    height: 30px;
+    margin-left:5px ;
+    margin-top: 14px;
+    cursor: pointer;
+    height: 20px;
+}
+#conta-container button, input{
+    width: 468px;
+    border: none;
+}
+#conta-container button{
+    margin-top: 15px;
+    height: 40px;
+    width: 470px;
+    border-radius:5px;
+    color: white;
+    background-color: 
+    #C92071;
+    font-size: 14px;
+    transform: 0.5s;
+}
+#conta-container button:hover{
+    background-color: 
+    #dd2e83;
+}
+.main-container{
+    display: flex;
+}
+
+.img-container{
+    display: flex;
+    margin-top: -490px;
+    margin-left: 650px;
+}   

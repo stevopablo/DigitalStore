@@ -1,0 +1,37 @@
+
+.catalogue-title{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 12px;
+    margin-left:440px;
+    color: #474747;
+    justify-content: space-around ;
+
+}
+.main-catalogue{
+    display: flex;
+    justify-content: baseline;
+    gap: 200px;
+}
+.aside-filter{
+    margin-left: 90px;
+    background-color: #e7e7e788;
+    width:400px ;
+    border-radius: 5px;
+}
+.aside-filter h5, h3{
+    margin-left: 20px;
+}
+.cards-filter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn-consult{
+    display: flex;
+    width: 0px;
+    margin-top: -10px;
+    gap: 10px;
+}
