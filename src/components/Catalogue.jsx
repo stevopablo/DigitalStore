@@ -1,8 +1,12 @@
+import { Link } from 'react-router-dom';
 import './Catalogue.css'
 import Footer from './Footer';
 import Header from './Header';
 import tenis2 from './Layer 1aa 2.png'
 const Catalogue = () => {
+    
+
+
     return ( 
         <>
         <Header/>
@@ -90,7 +94,9 @@ const Catalogue = () => {
 
             <div className='more-options'>
             <h2>30% OFF</h2>
+            <Link to={'/produtos'}>
             <img src={tenis2} alt="" />
+            </Link>
             <div className='tenis-description'>
             <h5>Tênis</h5>
             <h1>k-Swiss V8 - Masculino</h1>

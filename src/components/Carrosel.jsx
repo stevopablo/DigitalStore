@@ -85,7 +85,7 @@ const Carrosel = () => {
         {/* Produtos em Alta */}
         <div id='see-more'>
             <h1 style={{marginLeft:'50px'}}>Produtos em alta</h1>
-            <h2 style={{marginLeft:'440px'}}>ver mais</h2>
+            <h2 style={{marginLeft:'440px'}}><Link to={'/tenis'} style={{textDecoration:'none', color:'#C92071'}}>Ver mais</Link></h2>
         </div>
 
 

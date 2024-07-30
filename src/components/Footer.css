@@ -35,19 +35,21 @@ section ul li ,h4{
 section li {
     margin-top: 20px;
 }
+li:hover{
+    color: #cccc;
+}
 footer section{
     margin-top: 50px;
     margin-left: 120px;
     background-color:
     #1F1F1F;
 }
-
+hr{
+    background-color: #1F1F1F;
+    margin: 0;
+}
 #copy{
-text-decoration: overline 1px ;
-padding: 10;
-display: block;
-margin-top: 0;
-font-size: 15px;
+font-size: 12px;
 background-color: #1F1F1F;
 height: 20px;
 color: #FFFFFF;

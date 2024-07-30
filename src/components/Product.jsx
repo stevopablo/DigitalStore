@@ -4,6 +4,7 @@ import star from './Stars.png'
 import tenis2 from './Layer 1aa 2.png'
 import Header from './Header'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 const Product = () => {
     return (  
         <>
@@ -58,7 +59,9 @@ const Product = () => {
                 <div className='color-opt3'></div>
                 <div className='color-opt4'></div>
                 </div>
-                <button style={{width:'240px'}}  className='buy-btn'>COMPRAR</button>
+                <Link to={'/compras'}>
+                <button style={{width:'240px',cursor:'pointer'}}  className='buy-btn'>COMPRAR</button>
+                </Link>
             </div>
         </div>
 

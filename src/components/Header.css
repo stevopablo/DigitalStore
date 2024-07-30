@@ -2,15 +2,29 @@ nav ul{
     display: flex;
     text-decoration: none;
     list-style: none;
+    gap: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
 }
-ul li {
-    margin-right: 20px;
+
+#home{
+    color:#C92071;
+}
+#home link{
+    color: #C92071;
+}
+ul li a{
+    cursor: pointer;
     color: 
     #474747;
+    text-decoration: none;
 }
-#enter-account {
-    color: white;
-}
+
+.navbar ul li a:hover {
+    color: #C92071;
+  }
+
 #header{
     padding: 20px;
     display: flex;
@@ -28,6 +42,7 @@ ul li {
     font-size:19px;
     text-decoration: underline  ;
 }
+
 #header button{
     width: 130px;
     height: 45px;
@@ -35,7 +50,6 @@ ul li {
     #C92071;
     border: none;
     border-radius: 5px;
-    color:white;
 }
 #header input{
     height: 60px;

@@ -10,13 +10,13 @@ const Footer = () => {
                 <div id='info'>
                 <img id='logo-footer' src={logofooter} alt="logo" />
                 <p id='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga blanditiis dicta ea? Corrupti Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, eaque! </p>
-                <img id='icons' src={icons} alt="" />
+                <img style={{cursor:'pointer',width:'120px'}} id='icons' src={icons} alt="" />
                 </div>
             </section>
 
             <section>
                 <ul>
-                <li id='informacao'>Informação</li>
+                    <h2>infomação</h2>
                     <li>Sobre Drip store</li>
                     <li>Segurança</li>
                     <li>Whistlist</li>
@@ -28,7 +28,7 @@ const Footer = () => {
 
             <section id='categoria'>
                 <ul>
-                <li>Categoria</li>
+                    <h2>Catégoria</h2>  
                     <li>Camisetas</li>
                     <li>Calças</li>
                     <li>Bonês</li>
@@ -39,13 +39,13 @@ const Footer = () => {
 
             <section id='contato'>
                 <ul>
-                <li>Contato</li>
+                    <h2>Contato</h2>  
                     <li>Av. Santos Dumont, 1510 - 1 andar <br /> - Aldeota, Fortaleza - CE, 60150-161</li>                
                     <li>(85)3051-3411</li>                
                 </ul>
             </section>
         </footer>
-        
+            <hr />
             <h5 style={{border:'1px'}} id='copy'>&copy;Digital College</h5>
         </>
     );
