@@ -15,6 +15,7 @@ import Create from "../components/Create";
 import MyInfos from "../components/MyInfos";
 import Mycar from "../components/Mycar";
 import NotFound from "../pages/NotFound";
+import DescricaoProduto from "./Descricao_produtos";
 const Paths = () => {
     return (   
         <>
@@ -34,6 +35,7 @@ const Paths = () => {
                 <Route path="/criar" element={<Create/>}/>
                 <Route path="/info" element={<MyInfos/>}/>
                 <Route path="/carrinho" element={<Mycar/>}/>
+                <Route path="/descricao" element={<DescricaoProduto/>}/>
                 <Route path="/*" element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>

@@ -100,7 +100,7 @@ const Carrosel = () => {
                 <div id='image-container'>
                     <div><br /></div>
                 <h3>30% OFF</h3>
-                <Link to={'/produtos'}>
+                <Link to={'/descricao'}>
                 <img src={kswiss}alt="" />
                 </Link>
                 </div>

@@ -6,6 +6,7 @@ import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 const Product = () => {
+  
     return (  
         <>
         <Header/>
@@ -54,10 +55,10 @@ const Product = () => {
                 <h5>Cor</h5>
                 
                 <div className='colors-options'>
-                <div className='color-opt1'></div>
-                <div className='color-opt2'></div>
-                <div className='color-opt3'></div>
-                <div className='color-opt4'></div>
+                <div style={{cursor:'pointer'}} className='color-opt1'></div>
+                <div style={{cursor:'pointer'}} className='color-opt2'></div>
+                <div style={{cursor:'pointer'}} className='color-opt3'></div>
+                <div style={{cursor:'pointer'}} className='color-opt4'></div>
                 </div>
                 <Link to={'/compras'}>
                 <button style={{width:'240px',cursor:'pointer'}}  className='buy-btn'>COMPRAR</button>

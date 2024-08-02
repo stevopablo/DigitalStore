@@ -1,11 +1,14 @@
 import logo from './logo.png'
 import './FormAccount.css'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 const FormAccount = () => {
     return ( 
         <>
         <div id='form-logo'>
+            <Link to={'/'}>
             <img src={logo} alt="" />
+            </Link>
         </div>
 
         <h1 id='title-form'>Criar Conta</h1>  
